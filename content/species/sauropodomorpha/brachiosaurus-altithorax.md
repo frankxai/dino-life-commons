@@ -18,9 +18,11 @@ stats:
   discovery: "1903 (Elmer Riggs)"
 media:
   imageUrl: /media/species/brachiosaurus-altithorax.png
+  videoUrl: /media/species/brachiosaurus-altithorax.mp4
   altText: Photoreal reconstruction of Brachiosaurus altithorax among tall conifers in soft morning mist.
-  generator: grok-imagine-image-quality
+  generator: grok-imagine-image-quality + image_to_video
   conceptArtOnly: true
+  rightsNote: Generated reconstruction for education and design — not fossil evidence or identification proof.
 sources:
   - url: https://paleobiodb.org/
     title: Paleobiology Database

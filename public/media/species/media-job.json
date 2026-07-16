@@ -2,22 +2,13 @@
   "id": "dino-life-commons-heroes-2026-07-16",
   "brand": "Dino Life Commons",
   "created_at": "2026-07-16",
+  "identity_fix": "identity-fix-2026-07-16",
   "provenance": {
-    "generator": "grok-imagine-image-quality",
-    "harness": "grok"
+    "generator": "grok-imagine-image_gen-native",
+    "harness": "grok",
+    "note": "identity-fix-2026-07-16 — regenerated stills with native Imagine image_gen; anatomy verified before overwrite"
   },
   "outputs": [
-    {
-      "filename": "ankylosaurus-magniventris.png",
-      "local_path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/ankylosaurus-magniventris.png",
-      "relative_path": "public/media/species/ankylosaurus-magniventris.png",
-      "subject": "Ankylosaurus magniventris",
-      "aspect_ratio": "16:9",
-      "width": 1280,
-      "height": 720,
-      "format": "png",
-      "prompt": "Photorealistic National Geographic wildlife photography of Ankylosaurus magniventris in a misty Late Cretaceous forest. Accurate paleontology reconstruction: heavily armored herbivore with osteoderm plates, low wide body, massive bony club tail, short legs, beaked snout. Volumetric fog drifting between ancient conifers and ferns, golden hour god rays piercing the canopy, soft warm side light catching wet armor plates. Cinematic 16:9 landscape hero image, documentary wildlife photography style, ultra detailed scales and texture, atmospheric depth, natural color grading. No text, no watermark, no logos, no humans."
-    },
     {
       "filename": "tyrannosaurus-rex.png",
       "local_path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/tyrannosaurus-rex.png",
@@ -27,7 +18,8 @@
       "width": 1280,
       "height": 720,
       "format": "png",
-      "prompt": "Photorealistic documentary wildlife photograph of Tyrannosaurus rex on a humid Late Cretaceous floodplain at dusk. Modern scientific proportions: massive skull, robust body, powerful hind legs, reduced forelimbs, long balancing tail, textured scaly hide with subtle protofeathers possible on nape. Atmospheric haze over muddy water and ferns, dramatic side light from low sun, deep orange-purple dusk sky. Cinematic 16:9 landscape hero image, National Geographic photoreal wildlife documentary style, accurate paleontology reconstruction, ultra detailed. No text, no watermark, no logos, no humans."
+      "identity_check": "PASS — bipedal theropod, massive skull, reduced forelimbs, long horizontal tail; dusk floodplain; not ceratopsian/ankylosaur/sauropod",
+      "prompt": "Photorealistic National Geographic wildlife photograph of a single adult Tyrannosaurus rex, bipedal theropod dinosaur, standing on a humid Late Cretaceous floodplain at dusk. Critical anatomy: enormous deep massive skull with powerful jaws and visible teeth, robust muscular body, two powerful hind legs, tiny reduced two-fingered forelimbs, long heavy balancing tail held horizontal. Scaly textured hide, subtle protofeathers only on nape optional. Muddy floodplain water, ferns, orange-purple dusk sky, atmospheric haze, dramatic low side light. Full body three-quarter view clearly showing theropod bipedal silhouette. Cinematic 16:9 landscape, documentary photoreal, ultra detailed. No text, no watermark, no logos, no humans, no frill, no horns, no armor plates, no long sauropod neck."
     },
     {
       "filename": "triceratops-horridus.png",
@@ -38,7 +30,8 @@
       "width": 1280,
       "height": 720,
       "format": "png",
-      "prompt": "Photorealistic wildlife documentary photograph of Triceratops horridus on an open Late Cretaceous plain. Accurate osteology-informed design: three facial horns, large bony frill, massive beaked head, robust quadrupedal body, textured hide. Warm late afternoon dust light, golden particles in air, dry grass and low shrubs, soft long shadows. Cinematic 16:9 landscape hero image, National Geographic photoreal style, atmospheric depth, natural color grade. No text, no watermark, no logos, no humans."
+      "identity_check": "PASS — three facial horns + large bony frill, beaked quadruped; open plain late afternoon; not T.rex/sauropod",
+      "prompt": "Photorealistic National Geographic wildlife photograph of a single adult Triceratops horridus, ceratopsian dinosaur, on an open Late Cretaceous plain in warm late afternoon light. Critical anatomy: large beaked head with exactly three facial horns — two long brow horns above the eyes and one shorter nasal horn — plus a broad solid bony neck frill shield behind the skull; massive quadrupedal body with sturdy pillar-like legs; no bipedal posture. Textured hide, dry grass and low shrubs, golden dust particles, soft long shadows. Full body three-quarter view clearly showing horns and frill. Cinematic 16:9 landscape, documentary photoreal, ultra detailed. No text, no watermark, no logos, no humans, no bipedal theropod, no long sauropod neck, no tail club, no heavy body armor."
     },
     {
       "filename": "brachiosaurus-altithorax.png",
@@ -49,7 +42,20 @@
       "width": 1280,
       "height": 720,
       "format": "png",
-      "prompt": "Photorealistic National Geographic cinematic photograph of a Brachiosaurus altithorax herd among tall Late Jurassic conifers. High-browser sauropods with long elevated necks, forelimbs longer than hind limbs, small heads high in the canopy, massive bodies conveying scale grandeur. Soft morning mist, cool blue-green atmosphere, gentle god rays through trees, dewy ground vegetation. Cinematic 16:9 landscape hero image, documentary wildlife photoreal style, accurate paleontology reconstruction. No text, no watermark, no logos, no humans."
+      "identity_check": "PASS — long elevated necks, high-browser sauropod herd among tall conifers; morning mist; not ankylosaur/ceratopsian",
+      "prompt": "Photorealistic National Geographic cinematic photograph of a small herd of Brachiosaurus altithorax high-browser sauropod dinosaurs among tall Late Jurassic conifers in soft morning mist. Critical anatomy: extremely long elevated giraffe-like necks reaching high into the canopy, small heads high above the trees, massive elephantine bodies, forelimbs longer than hind limbs giving an uphill stance, long tapering tails, clearly sauropod not armored. Cool blue-green atmosphere, gentle god rays through conifers, dewy ground vegetation, scale grandeur. Cinematic 16:9 landscape, documentary wildlife photoreal, accurate paleontology. No text, no watermark, no logos, no humans, no facial horns, no frill, no osteoderm armor, no tail club, no bipedal theropod."
+    },
+    {
+      "filename": "ankylosaurus-magniventris.png",
+      "local_path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/ankylosaurus-magniventris.png",
+      "relative_path": "public/media/species/ankylosaurus-magniventris.png",
+      "subject": "Ankylosaurus magniventris",
+      "aspect_ratio": "16:9",
+      "width": 1280,
+      "height": 720,
+      "format": "png",
+      "identity_check": "PASS — low wide armored body, osteoderm spikes, bony tail club, quadrupedal; misty forest golden hour; not T.rex",
+      "prompt": "Photorealistic National Geographic wildlife photograph of a single adult Ankylosaurus magniventris, armored ankylosaur dinosaur, in a misty Late Cretaceous forest at golden hour. Critical anatomy: low wide heavily armored body covered in osteoderm plates and lateral spikes, short sturdy quadrupedal legs, broad beaked snout, and a massive distinctive bony club at the end of the stiff tail clearly visible. Volumetric fog between ancient conifers and ferns, golden hour god rays, soft warm side light on wet armor plates. Full body side three-quarter view clearly showing low armored silhouette and tail club. Cinematic 16:9 landscape, documentary photoreal, ultra detailed. No text, no watermark, no logos, no humans, no bipedal stance, no massive theropod skull, no three facial horns, no tall frill, no long elevated sauropod neck."
     }
   ]
 }

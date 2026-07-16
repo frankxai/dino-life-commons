@@ -1,0 +1,52 @@
+{
+  "job": "identity-fix-videos-2026-07-16",
+  "note": "identity-fix-videos-2026-07-16",
+  "engine": "native-imagine-image_to_video",
+  "duration_s": 6,
+  "resolution": "720p",
+  "generated_at": "2026-07-16T02:49:40",
+  "videos": [
+    {
+      "species": "tyrannosaurus",
+      "slug": "tyrannosaurus-rex",
+      "file": "tyrannosaurus-rex.mp4",
+      "path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/tyrannosaurus-rex.mp4",
+      "bytes": 9424421,
+      "size_mb": 8.99,
+      "present": true
+    },
+    {
+      "species": "triceratops",
+      "slug": "triceratops-horridus",
+      "file": "triceratops-horridus.mp4",
+      "path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/triceratops-horridus.mp4",
+      "bytes": 12389376,
+      "size_mb": 11.82,
+      "present": true
+    },
+    {
+      "species": "brachiosaurus",
+      "slug": "brachiosaurus-altithorax",
+      "file": "brachiosaurus-altithorax.mp4",
+      "path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/brachiosaurus-altithorax.mp4",
+      "bytes": 10738795,
+      "size_mb": 10.24,
+      "present": true,
+      "source_png": "brachiosaurus-altithorax.png",
+      "motion": "Brachiosaurus high browser herd, neck movement among conifers, morning mist, slow upward tilt.",
+      "regenerated": true
+    },
+    {
+      "species": "ankylosaurus",
+      "slug": "ankylosaurus-magniventris",
+      "file": "ankylosaurus-magniventris.mp4",
+      "path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/ankylosaurus-magniventris.mp4",
+      "bytes": 12785593,
+      "size_mb": 12.19,
+      "present": true,
+      "source_png": "ankylosaurus-magniventris.png",
+      "motion": "Ankylosaurus armored walk misty forest, tail club visible, ferns sway, fog drift, soft push-in.",
+      "regenerated": true
+    }
+  ]
+}

@@ -18,9 +18,11 @@ stats:
   discovery: "1905 (Henry Fairfield Osborn)"
 media:
   imageUrl: /media/species/tyrannosaurus-rex.png
+  videoUrl: /media/species/tyrannosaurus-rex.mp4
   altText: Photoreal reconstruction of Tyrannosaurus rex on a dusk Late Cretaceous floodplain.
-  generator: grok-imagine-image-quality
+  generator: grok-imagine-image-quality + image_to_video
   conceptArtOnly: true
+  rightsNote: Generated reconstruction for education and design — not fossil evidence or identification proof.
 sources:
   - url: https://paleobiodb.org/
     title: Paleobiology Database

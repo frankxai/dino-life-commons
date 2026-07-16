@@ -18,9 +18,11 @@ stats:
   discovery: "1889 (O.C. Marsh)"
 media:
   imageUrl: /media/species/triceratops-horridus.png
+  videoUrl: /media/species/triceratops-horridus.mp4
   altText: Photoreal reconstruction of Triceratops horridus on an open Late Cretaceous plain.
-  generator: grok-imagine-image-quality
+  generator: grok-imagine-image-quality + image_to_video
   conceptArtOnly: true
+  rightsNote: Generated reconstruction for education and design — not fossil evidence or identification proof.
 sources:
   - url: https://paleobiodb.org/
     title: Paleobiology Database
