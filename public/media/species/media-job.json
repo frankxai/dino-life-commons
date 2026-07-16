@@ -1,0 +1,55 @@
+{
+  "id": "dino-life-commons-heroes-2026-07-16",
+  "brand": "Dino Life Commons",
+  "created_at": "2026-07-16",
+  "provenance": {
+    "generator": "grok-imagine-image-quality",
+    "harness": "grok"
+  },
+  "outputs": [
+    {
+      "filename": "ankylosaurus-magniventris.png",
+      "local_path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/ankylosaurus-magniventris.png",
+      "relative_path": "public/media/species/ankylosaurus-magniventris.png",
+      "subject": "Ankylosaurus magniventris",
+      "aspect_ratio": "16:9",
+      "width": 1280,
+      "height": 720,
+      "format": "png",
+      "prompt": "Photorealistic National Geographic wildlife photography of Ankylosaurus magniventris in a misty Late Cretaceous forest. Accurate paleontology reconstruction: heavily armored herbivore with osteoderm plates, low wide body, massive bony club tail, short legs, beaked snout. Volumetric fog drifting between ancient conifers and ferns, golden hour god rays piercing the canopy, soft warm side light catching wet armor plates. Cinematic 16:9 landscape hero image, documentary wildlife photography style, ultra detailed scales and texture, atmospheric depth, natural color grading. No text, no watermark, no logos, no humans."
+    },
+    {
+      "filename": "tyrannosaurus-rex.png",
+      "local_path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/tyrannosaurus-rex.png",
+      "relative_path": "public/media/species/tyrannosaurus-rex.png",
+      "subject": "Tyrannosaurus rex",
+      "aspect_ratio": "16:9",
+      "width": 1280,
+      "height": 720,
+      "format": "png",
+      "prompt": "Photorealistic documentary wildlife photograph of Tyrannosaurus rex on a humid Late Cretaceous floodplain at dusk. Modern scientific proportions: massive skull, robust body, powerful hind legs, reduced forelimbs, long balancing tail, textured scaly hide with subtle protofeathers possible on nape. Atmospheric haze over muddy water and ferns, dramatic side light from low sun, deep orange-purple dusk sky. Cinematic 16:9 landscape hero image, National Geographic photoreal wildlife documentary style, accurate paleontology reconstruction, ultra detailed. No text, no watermark, no logos, no humans."
+    },
+    {
+      "filename": "triceratops-horridus.png",
+      "local_path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/triceratops-horridus.png",
+      "relative_path": "public/media/species/triceratops-horridus.png",
+      "subject": "Triceratops horridus",
+      "aspect_ratio": "16:9",
+      "width": 1280,
+      "height": 720,
+      "format": "png",
+      "prompt": "Photorealistic wildlife documentary photograph of Triceratops horridus on an open Late Cretaceous plain. Accurate osteology-informed design: three facial horns, large bony frill, massive beaked head, robust quadrupedal body, textured hide. Warm late afternoon dust light, golden particles in air, dry grass and low shrubs, soft long shadows. Cinematic 16:9 landscape hero image, National Geographic photoreal style, atmospheric depth, natural color grade. No text, no watermark, no logos, no humans."
+    },
+    {
+      "filename": "brachiosaurus-altithorax.png",
+      "local_path": "C:/Users/frank/starlight/repos/dino-life-commons/public/media/species/brachiosaurus-altithorax.png",
+      "relative_path": "public/media/species/brachiosaurus-altithorax.png",
+      "subject": "Brachiosaurus altithorax",
+      "aspect_ratio": "16:9",
+      "width": 1280,
+      "height": 720,
+      "format": "png",
+      "prompt": "Photorealistic National Geographic cinematic photograph of a Brachiosaurus altithorax herd among tall Late Jurassic conifers. High-browser sauropods with long elevated necks, forelimbs longer than hind limbs, small heads high in the canopy, massive bodies conveying scale grandeur. Soft morning mist, cool blue-green atmosphere, gentle god rays through trees, dewy ground vegetation. Cinematic 16:9 landscape hero image, documentary wildlife photoreal style, accurate paleontology reconstruction. No text, no watermark, no logos, no humans."
+    }
+  ]
+}

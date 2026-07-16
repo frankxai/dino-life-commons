@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+/*
+  Dino Life Commons — deep-time cinematic editorial system
+  Surfaces:
+   - Stratum dark (hero, species media, immersion)
+   - Amber paper (long-form reading)
+*/
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-serif: var(--font-newsreader), ui-serif, Georgia, "Times New Roman", serif;
+
+  --color-background: oklch(0.97 0.01 75);
+  --color-foreground: oklch(0.22 0.03 55);
+
+  --color-paper: oklch(0.985 0.008 80);
+  --color-paper-foreground: oklch(0.24 0.03 55);
+
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.22 0.03 55);
+
+  --color-muted: oklch(0.94 0.015 75);
+  --color-muted-foreground: oklch(0.48 0.025 55);
+
+  --color-border: oklch(0.88 0.02 70);
+  --color-input: oklch(0.88 0.02 70);
+  --color-ring: oklch(0.62 0.12 55);
+
+  /* Brand: amber resin + fern green */
+  --color-primary: oklch(0.55 0.12 55);
+  --color-primary-foreground: oklch(0.99 0.01 80);
+
+  --color-accent: oklch(0.72 0.14 75);
+  --color-accent-foreground: oklch(0.2 0.04 55);
+
+  --color-stratum: oklch(0.16 0.02 55);
+  --color-stratum-deep: oklch(0.11 0.015 50);
+  --color-stratum-foreground: oklch(0.94 0.015 80);
+  --color-stratum-muted: oklch(0.68 0.03 70);
+  --color-stratum-border: oklch(0.28 0.02 55);
+
+  --color-fern: oklch(0.52 0.1 145);
+  --color-bone: oklch(0.9 0.02 85);
+  --color-amber: oklch(0.75 0.14 75);
+  --color-destructive: oklch(0.58 0.19 25);
+  --color-destructive-foreground: oklch(0.99 0.01 40);
+
+  --radius: 0.75rem;
+  --radius-sm: calc(var(--radius) - 0.35rem);
+  --radius-lg: calc(var(--radius) + 0.35rem);
+
+  --shadow-elevated: 0 1px 2px oklch(0.2 0.03 55 / 0.08),
+    0 18px 40px -16px oklch(0.18 0.04 50 / 0.35);
+  --shadow-glass: 0 8px 32px oklch(0.1 0.02 50 / 0.45);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: color-mix(in oklch, var(--color-primary) 30%, transparent);
+  }
+}
+
+@layer components {
+  .prose-paleo {
+    max-width: 68ch;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--color-foreground);
+  }
+  .prose-paleo h2 {
+    font-family: var(--font-serif);
+    font-size: 1.55rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+  }
+  .prose-paleo h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .prose-paleo p {
+    margin-bottom: 1rem;
+  }
+  .prose-paleo ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .prose-paleo li {
+    margin-bottom: 0.35rem;
+  }
+  .prose-paleo a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .prose-paleo table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 1.5rem;
+    font-size: 0.95rem;
+  }
+  .prose-paleo th,
+  .prose-paleo td {
+    border: 1px solid var(--color-border);
+    padding: 0.55rem 0.75rem;
+    text-align: left;
+  }
+  .prose-paleo th {
+    background: var(--color-muted);
+    font-weight: 600;
+  }
+  .prose-paleo blockquote {
+    border-left: 3px solid var(--color-primary);
+    padding-left: 1rem;
+    color: var(--color-muted-foreground);
+    margin: 1.25rem 0;
+  }
+  .glass-panel {
+    background: color-mix(in oklch, var(--color-stratum) 78%, transparent);
+    backdrop-filter: blur(16px) saturate(1.2);
+    -webkit-backdrop-filter: blur(16px) saturate(1.2);
+    border: 1px solid color-mix(in oklch, white 12%, transparent);
+    box-shadow: var(--shadow-glass);
+  }
+  .stat-chip {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 5.5rem;
+    border-radius: 0.65rem;
+    background: color-mix(in oklch, black 35%, transparent);
+    border: 1px solid color-mix(in oklch, white 10%, transparent);
+    padding: 0.55rem 0.75rem;
+  }
+  .stat-chip .label {
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: color-mix(in oklch, white 65%, transparent);
+  }
+  .stat-chip .value {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: white;
+  }
+}
