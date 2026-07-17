@@ -34,9 +34,9 @@ dino-life-commons
 | Species | Clade | Media |
 |---|---|---|
 | *Ankylosaurus magniventris* | Ornithischia | PNG + MP4 |
-| *Triceratops horridus* | Ornithischia | PNG |
-| *Tyrannosaurus rex* | Theropoda | PNG |
-| *Brachiosaurus altithorax* | Sauropodomorpha | PNG |
+| *Triceratops horridus* | Ornithischia | PNG + MP4 |
+| *Tyrannosaurus rex* | Theropoda | PNG + MP4 |
+| *Brachiosaurus altithorax* | Sauropodomorpha | PNG + MP4 |
 
 ## Media generation (Grok quality)
 
